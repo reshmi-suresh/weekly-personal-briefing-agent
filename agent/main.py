@@ -25,7 +25,7 @@ logging.basicConfig(
 )
 log = logging.getLogger("weekly-briefing-agent")
 
-DEFAULT_MODEL = os.getenv("ANTHROPIC_MODEL", "claude-sonnet-4-20250514")
+DEFAULT_MODEL = os.getenv("ANTHROPIC_MODEL", "claude-sonnet-4-6")
 MCP_BETA = "mcp-client-2025-11-20"
 
 

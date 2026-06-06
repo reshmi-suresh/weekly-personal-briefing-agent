@@ -92,20 +92,6 @@ def build_user_prompt() -> str:
     )
 
 
-def build_send_email_prompt(recipient: str, subject: str, html_body: str) -> str:
-    return f"""Send an HTML email using the Gmail MCP send tool (or equivalent).
-
-- To: {recipient}
-- Subject: {subject}
-- Body: HTML (use the html body below exactly)
-
-<html>
-{html_body}
-</html>
-
-Confirm success or report the error."""
-
-
 def email_subject() -> str:
     date_str = datetime.now(timezone.utc).strftime("%B %d, %Y")
     return f"Weekly digest — {date_str}"

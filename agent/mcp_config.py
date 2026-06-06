@@ -12,8 +12,6 @@ MCP_SERVERS = [
     {"type": "url", "url": "https://mcp.notion.com/mcp", "name": "notion"},
 ]
 
-GMAIL_ONLY_SERVERS = [MCP_SERVERS[0]]
-
 
 def mcp_tools(server_names: list[str] | None = None) -> list[dict]:
     """Build MCPToolset entries for the given server names (default: all)."""

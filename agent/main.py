@@ -6,7 +6,10 @@ import json
 import logging
 import os
 import re
+import smtplib
 import sys
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
 from pathlib import Path
 
 AGENT_DIR = Path(__file__).resolve().parent
@@ -261,33 +264,43 @@ def fetch_digest(client, prompt_module, mcp_config) -> dict:
     return extract_json(text)
 
 
-def send_email_via_mcp(client, prompt_module, mcp_config, html: str, recipient: str):
-    subject = prompt_module.email_subject()
-    log.info("Sending digest to %s via Gmail MCP...", recipient)
-    response = client.beta.messages.create(
-        model=DEFAULT_MODEL,
-        max_tokens=4096,
-        messages=[
-            {
-                "role": "user",
-                "content": prompt_module.build_send_email_prompt(
-                    recipient, subject, html
-                ),
-            }
-        ],
-        mcp_servers=mcp_config.GMAIL_ONLY_SERVERS,
-        tools=mcp_config.mcp_tools(["gmail"]),
-        betas=[MCP_BETA],
-    )
-    text = extract_text_blocks(response)
-    log.info("Send response: %s", text[:500])
-    return text
+def send_email_smtp(html: str, recipient: str, subject: str) -> None:
+    """Send HTML digest via Gmail SMTP using an App Password."""
+    gmail_user = os.getenv("GMAIL_USER")
+    app_password = os.getenv("GMAIL_APP_PASSWORD")
+    if not gmail_user or not app_password:
+        raise ValueError(
+            "GMAIL_USER and GMAIL_APP_PASSWORD must be set in the environment"
+        )
+
+    log.info("Sending digest to %s via Gmail SMTP...", recipient)
+
+    msg = MIMEMultipart("alternative")
+    msg["Subject"] = subject
+    msg["From"] = gmail_user
+    msg["To"] = recipient
+    msg.attach(MIMEText(html, "html", "utf-8"))
+
+    with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
+        server.login(gmail_user, app_password)
+        server.sendmail(gmail_user, [recipient], msg.as_string())
+
+    log.info("Email sent successfully.")
 
 
 def main() -> int:
     recipient = os.getenv("GMAIL_RECIPIENT")
+    gmail_user = os.getenv("GMAIL_USER")
+    app_password = os.getenv("GMAIL_APP_PASSWORD")
+
     if not recipient:
         log.error("GMAIL_RECIPIENT not set. Copy .env.example to .env.")
+        return 1
+    if not gmail_user or not app_password:
+        log.error(
+            "GMAIL_USER and GMAIL_APP_PASSWORD must be set. "
+            "Copy .env.example to .env (local) or configure env vars in your Cloud Routine."
+        )
         return 1
 
     prompt_module = _import_prompt()
@@ -319,10 +332,10 @@ def main() -> int:
     log.info("Preview saved to %s", preview_path)
 
     try:
-        send_email_via_mcp(client, prompt_module, mcp_config, html, recipient)
+        send_email_smtp(html, recipient, prompt_module.email_subject())
         log.info("Weekly digest sent successfully.")
     except Exception as exc:
-        log.exception("Failed to send email via Gmail MCP: %s", exc)
+        log.exception("Failed to send email via Gmail SMTP: %s", exc)
         log.info("HTML preview is available at %s", preview_path)
         return 1
 

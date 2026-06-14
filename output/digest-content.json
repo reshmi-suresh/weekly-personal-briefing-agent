@@ -1,40 +1,132 @@
 {
-  "date": "Sunday, June 8, 2026",
+  "date": "Sunday, June 14, 2026",
   "headline": "Good morning — here's your week ahead.",
   "tldr": [
-    "Team standup Mon 9am (Calendar #1)",
-    "Book flights by Wed (To-dos #1)",
-    "Bank email needs reply (Unread #1)"
+    "Wed conflict: dentist 2:30 PM and Guy/Robbie call 3 PM overlap (Calendar #5, #6)",
+    "Thu: Meet Alli 9:45 AM and Manny/Manoj in-person 10 AM overlap (Calendar #7, #8)",
+    "Emily Jones birthday Friday — send a message (Calendar #9)",
+    "Change sheets and Virgin status match both due Friday (To-dos #3, #4)",
+    "Tuesday entirely clear; Saturday Shabbat has no location confirmed (Calendar #12)"
   ],
-  "intro": "**Monday standup** kicks off a busy week. **Flight booking** is due mid-week. One **urgent bank email** needs a reply.",
-  "stats": "2 open to-dos · 3 events this week · 1 unread email (1 urgent)",
+  "intro": "<strong>Two scheduling conflicts need resolving</strong>: Wednesday's dentist scan (2:30–4:30 PM) overlaps with the Guy/Robbie call (3:00 PM), and Thursday's Meet Alli (9:45 AM) runs into the Manny/Manoj in-person at Farringdon (10:00 AM). <strong>Emily Jones' birthday is Friday 19 June</strong> — send a message or gift. Tuesday is completely clear, and the <strong>Saturday Shabbat dinner has no location confirmed</strong>.",
+  "stats": "4 open to-dos · 12 events this week · 1 unread email (0 urgent)",
   "todos": [
-    {"text": "Book flights to Barcelona", "suggested_date": "2026-06-10"},
-    {"text": "Renew gym membership", "suggested_date": null}
+    {"text": "Review EasyJet", "suggested_date": "2026-06-16"},
+    {"text": "Housekeeper", "suggested_date": null},
+    {"text": "Change sheets", "suggested_date": "2026-06-19"},
+    {"text": "Virgin status match", "suggested_date": "2026-06-19"}
   ],
   "events": [
     {
-      "day": "Monday, June 9",
-      "name": "Team standup",
-      "time": "9:00 AM",
-      "location": "Zoom",
-      "prep_notes": ["Review blockers from last week."]
+      "day": "Sunday, June 14",
+      "name": "Circuit — Milo and the Bull",
+      "time": "10:00 AM",
+      "location": "Milo and the Bull Peckham",
+      "prep_notes": ["Booked and confirmed."]
     },
     {
-      "day": "Wednesday, June 11",
-      "name": "Dinner with Jamie",
-      "time": "7:30 PM",
+      "day": "Sunday, June 14",
+      "name": "Krishan catch-up",
+      "time": "11:00 AM",
+      "location": "Google Meet",
+      "prep_notes": [
+        "Invite organised by Krishan (krishan.rele@gmail.com).",
+        "Calendar also has a personal 'Speak to Krishan' reminder at the same time — the duplicate is safe to remove."
+      ]
+    },
+    {
+      "day": "Monday, June 15",
+      "name": "Reshmi, Oli, Oscar",
+      "time": "11:00 AM",
+      "location": "Google Meet",
+      "prep_notes": [
+        "Organised by Oli (innerworks.me).",
+        "Oscar has not yet responded to the invite."
+      ]
+    },
+    {
+      "day": "Wednesday, June 17",
+      "name": "Milo Reformer — Milo and the Bull",
+      "time": "7:30 AM",
+      "location": "Milo and the Bull Peckham",
+      "prep_notes": ["Early class — set alarm the night before."]
+    },
+    {
+      "day": "Wednesday, June 17",
+      "name": "Dentist scan",
+      "time": "2:30 PM",
       "location": null,
-      "prep_notes": ["Confirm restaurant and reservation.", "Check travel time."]
+      "prep_notes": [
+        "No location in the calendar invite — confirm the address before Wednesday.",
+        "Runs until 4:30 PM, overlapping with the Guy/Robbie call at 3:00 PM — one needs to move."
+      ]
+    },
+    {
+      "day": "Wednesday, June 17",
+      "name": "Reshmi / Guy / Robbie",
+      "time": "3:00 PM",
+      "location": "TBD",
+      "prep_notes": [
+        "Location still TBD — confirm with Guy or Robbie (both from Ramp, both accepted).",
+        "Conflicts with dentist scan (2:30–4:30 PM) — reschedule one."
+      ]
+    },
+    {
+      "day": "Thursday, June 18",
+      "name": "Meet Alli",
+      "time": "9:45 AM",
+      "location": null,
+      "prep_notes": [
+        "No location confirmed — check where you're meeting Alli.",
+        "Runs until 11:15 AM, overlapping with the Manny/Manoj in-person starting at 10:00 AM."
+      ]
+    },
+    {
+      "day": "Thursday, June 18",
+      "name": "Reshmi / Manny / Manoj (in person)",
+      "time": "10:00 AM",
+      "location": "161 Farringdon Rd, London EC1R 3AL",
+      "prep_notes": [
+        "In-person meeting at Farringdon — allow travel time.",
+        "Overlaps with Meet Alli (9:45–11:15 AM) — resolve the conflict before Thursday."
+      ]
+    },
+    {
+      "day": "Friday, June 19",
+      "name": "Emily Jones birthday",
+      "time": "All day",
+      "location": null,
+      "prep_notes": ["Send a birthday message or gift — don't let this slip past."]
+    },
+    {
+      "day": "Friday, June 19",
+      "name": "Crew — Milo and the Bull",
+      "time": "8:15 AM",
+      "location": "Milo and the Bull Peckham",
+      "prep_notes": ["Early class — set alarm."]
+    },
+    {
+      "day": "Saturday, June 20",
+      "name": "Circuit — Milo and the Bull",
+      "time": "10:30 AM",
+      "location": "Milo and the Bull Peckham",
+      "prep_notes": ["Booked and confirmed."]
+    },
+    {
+      "day": "Saturday, June 20",
+      "name": "Saturday Shabbat",
+      "time": "7:00 PM",
+      "location": null,
+      "prep_notes": ["No location in calendar — confirm where this is and whether a reservation is needed."]
     }
   ],
   "emails": [
     {
-      "sender": "Bank",
-      "subject": "Verify recent transaction",
-      "preview": "Please confirm the payment by end of day...",
-      "timestamp": "Sat, Jun 7, 2:30 PM",
-      "urgent": true
+      "sender": "reshmis93@gmail.com",
+      "subject": "Agentic Commerce Daily — Sun 14 Jun 2026",
+      "preview": "What's moving: Visa has launched an AI commerce platform integrating directly with OpenAI, enabling ChatGPT to browse, select, and pay autonomously on users' behalf.",
+      "timestamp": "Sun, Jun 14, 10:46 AM",
+      "urgent": false
     }
   ],
   "errors": []

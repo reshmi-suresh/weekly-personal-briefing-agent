@@ -1,0 +1,41 @@
+{
+  "date": "Sunday, June 8, 2026",
+  "headline": "Good morning — here's your week ahead.",
+  "tldr": [
+    "Team standup Mon 9am (Calendar #1)",
+    "Book flights by Wed (To-dos #1)",
+    "Bank email needs reply (Unread #1)"
+  ],
+  "intro": "**Monday standup** kicks off a busy week. **Flight booking** is due mid-week. One **urgent bank email** needs a reply.",
+  "stats": "2 open to-dos · 3 events this week · 1 unread email (1 urgent)",
+  "todos": [
+    {"text": "Book flights to Barcelona", "suggested_date": "2026-06-10"},
+    {"text": "Renew gym membership", "suggested_date": null}
+  ],
+  "events": [
+    {
+      "day": "Monday, June 9",
+      "name": "Team standup",
+      "time": "9:00 AM",
+      "location": "Zoom",
+      "prep_notes": ["Review blockers from last week."]
+    },
+    {
+      "day": "Wednesday, June 11",
+      "name": "Dinner with Jamie",
+      "time": "7:30 PM",
+      "location": null,
+      "prep_notes": ["Confirm restaurant and reservation.", "Check travel time."]
+    }
+  ],
+  "emails": [
+    {
+      "sender": "Bank",
+      "subject": "Verify recent transaction",
+      "preview": "Please confirm the payment by end of day...",
+      "timestamp": "Sat, Jun 7, 2:30 PM",
+      "urgent": true
+    }
+  ],
+  "errors": []
+}

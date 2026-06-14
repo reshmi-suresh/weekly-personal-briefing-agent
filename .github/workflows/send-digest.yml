@@ -1,13 +1,13 @@
-name: Weekly Briefing
+name: Send Digest
 
 on:
-  schedule:
-    # Sundays at 07:00 UTC — adjust for your timezone
-    - cron: "0 7 * * 0"
+  push:
+    paths:
+      - output/digest-content.json
   workflow_dispatch:
 
 jobs:
-  briefing:
+  send:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -19,9 +19,9 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run weekly briefing agent
+      - name: Render and send digest
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           GMAIL_RECIPIENT: ${{ secrets.GMAIL_RECIPIENT }}
-          NOTION_TODO_DB: 339dea62-56ec-80f9-bee6-000b60295068
-        run: python agent/main.py
+        run: python scripts/send_digest.py

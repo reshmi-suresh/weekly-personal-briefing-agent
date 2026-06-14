@@ -4,5 +4,6 @@ __pycache__/
 .DS_Store
 node_modules/
 *.log
-output/
+output/*
+!output/digest-content.json
 .venv/

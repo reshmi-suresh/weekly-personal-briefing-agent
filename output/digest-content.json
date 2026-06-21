@@ -1,132 +1,158 @@
 {
-  "date": "Sunday, June 14, 2026",
+  "date": "Sunday, June 21, 2026",
   "headline": "Good morning — here's your week ahead.",
   "tldr": [
-    "Wed conflict: dentist 2:30 PM and Guy/Robbie call 3 PM overlap (Calendar #5, #6)",
-    "Thu: Meet Alli 9:45 AM and Manny/Manoj in-person 10 AM overlap (Calendar #7, #8)",
-    "Emily Jones birthday Friday — send a message (Calendar #9)",
-    "Change sheets and Virgin status match both due Friday (To-dos #3, #4)",
-    "Tuesday entirely clear; Saturday Shabbat has no location confirmed (Calendar #12)"
+    "ElevenLabs via Jamie: Lauren needs your project samples — reply this week (Emails #1)",
+    "Review EasyJet overdue since yesterday — clear it today (To-dos #1)",
+    "Dinner with Don + Visa Tuesday has no location confirmed (Calendar #5)",
+    "Potential NYC starts Friday — confirm it's happening and book travel if so (Calendar #8)",
+    "Three birthdays: Marc vM Tue, Caroline Fri, Roger and Chechi Sat (Calendar #3, #9, #10, #11)",
+    "Saturday Shabbat has no location confirmed (Calendar #13)",
+    "Wednesday entirely clear — no plans at all (Calendar)"
   ],
-  "intro": "<strong>Two scheduling conflicts need resolving</strong>: Wednesday's dentist scan (2:30–4:30 PM) overlaps with the Guy/Robbie call (3:00 PM), and Thursday's Meet Alli (9:45 AM) runs into the Manny/Manoj in-person at Farringdon (10:00 AM). <strong>Emily Jones' birthday is Friday 19 June</strong> — send a message or gift. Tuesday is completely clear, and the <strong>Saturday Shabbat dinner has no location confirmed</strong>.",
-  "stats": "4 open to-dos · 12 events this week · 1 unread email (0 urgent)",
+  "intro": "<strong>ElevenLabs has asked for your project portfolio via Jamie</strong> — Lauren Rothwell is waiting on samples of your work and Jamie has explicitly looped you in (Emails #1, urgent). Review EasyJet is one day overdue, and <strong>Dinner with Don + Visa on Tuesday evening has no location confirmed</strong>. Wednesday is completely clear; Potential NYC starts Friday — confirm whether it's going ahead and book if so.",
+  "stats": "2 open to-dos · 13 events this week · 1 unread email (1 urgent)",
   "todos": [
-    {"text": "Review EasyJet", "suggested_date": "2026-06-16"},
-    {"text": "Housekeeper", "suggested_date": null},
-    {"text": "Change sheets", "suggested_date": "2026-06-19"},
-    {"text": "Virgin status match", "suggested_date": "2026-06-19"}
+    {
+      "text": "Review EasyJet",
+      "suggested_date": "2026-06-21"
+    },
+    {
+      "text": "Housekeeper",
+      "suggested_date": null
+    }
   ],
   "events": [
     {
-      "day": "Sunday, June 14",
+      "day": "Sunday, June 21",
       "name": "Circuit — Milo and the Bull",
       "time": "10:00 AM",
       "location": "Milo and the Bull Peckham",
-      "prep_notes": ["Booked and confirmed."]
-    },
-    {
-      "day": "Sunday, June 14",
-      "name": "Krishan catch-up",
-      "time": "11:00 AM",
-      "location": "Google Meet",
       "prep_notes": [
-        "Invite organised by Krishan (krishan.rele@gmail.com).",
-        "Calendar also has a personal 'Speak to Krishan' reminder at the same time — the duplicate is safe to remove."
+        "Booked and confirmed."
       ]
     },
     {
-      "day": "Monday, June 15",
-      "name": "Reshmi, Oli, Oscar",
-      "time": "11:00 AM",
-      "location": "Google Meet",
-      "prep_notes": [
-        "Organised by Oli (innerworks.me).",
-        "Oscar has not yet responded to the invite."
-      ]
-    },
-    {
-      "day": "Wednesday, June 17",
-      "name": "Milo Reformer — Milo and the Bull",
+      "day": "Monday, June 22",
+      "name": "Yoga",
       "time": "7:30 AM",
-      "location": "Milo and the Bull Peckham",
-      "prep_notes": ["Early class — set alarm the night before."]
-    },
-    {
-      "day": "Wednesday, June 17",
-      "name": "Dentist scan",
-      "time": "2:30 PM",
       "location": null,
       "prep_notes": [
-        "No location in the calendar invite — confirm the address before Wednesday.",
-        "Runs until 4:30 PM, overlapping with the Guy/Robbie call at 3:00 PM — one needs to move."
+        "No location in the calendar — check where this class is before Monday morning."
       ]
     },
     {
-      "day": "Wednesday, June 17",
-      "name": "Reshmi / Guy / Robbie",
-      "time": "3:00 PM",
-      "location": "TBD",
-      "prep_notes": [
-        "Location still TBD — confirm with Guy or Robbie (both from Ramp, both accepted).",
-        "Conflicts with dentist scan (2:30–4:30 PM) — reschedule one."
-      ]
-    },
-    {
-      "day": "Thursday, June 18",
-      "name": "Meet Alli",
-      "time": "9:45 AM",
-      "location": null,
-      "prep_notes": [
-        "No location confirmed — check where you're meeting Alli.",
-        "Runs until 11:15 AM, overlapping with the Manny/Manoj in-person starting at 10:00 AM."
-      ]
-    },
-    {
-      "day": "Thursday, June 18",
-      "name": "Reshmi / Manny / Manoj (in person)",
-      "time": "10:00 AM",
-      "location": "161 Farringdon Rd, London EC1R 3AL",
-      "prep_notes": [
-        "In-person meeting at Farringdon — allow travel time.",
-        "Overlaps with Meet Alli (9:45–11:15 AM) — resolve the conflict before Thursday."
-      ]
-    },
-    {
-      "day": "Friday, June 19",
-      "name": "Emily Jones birthday",
+      "day": "Tuesday, June 23",
+      "name": "Marc vM's birthday",
       "time": "All day",
       "location": null,
-      "prep_notes": ["Send a birthday message or gift — don't let this slip past."]
+      "prep_notes": [
+        "Send Marc a birthday message."
+      ]
     },
     {
-      "day": "Friday, June 19",
-      "name": "Crew — Milo and the Bull",
-      "time": "8:15 AM",
+      "day": "Tuesday, June 23",
+      "name": "Reshmi Suresh <> LangChain",
+      "time": "11:30 AM",
+      "location": "Zoom",
+      "prep_notes": [
+        "Organised by Thomas Coventry-Brooker at LangChain (thomas.coventry-brooker@langchain.dev).",
+        "Zoom link is in the invite; password: 730523. Runs until 12:30 PM."
+      ]
+    },
+    {
+      "day": "Tuesday, June 23",
+      "name": "Dinner with Don + Visa",
+      "time": "6:30 PM",
+      "location": null,
+      "prep_notes": [
+        "No restaurant or location in the calendar — confirm before Tuesday.",
+        "Runs until 10:30 PM."
+      ]
+    },
+    {
+      "day": "Thursday, June 25",
+      "name": "Strength — Milo and the Bull",
+      "time": "7:15 AM",
       "location": "Milo and the Bull Peckham",
-      "prep_notes": ["Early class — set alarm."]
+      "prep_notes": [
+        "Early gym on a full-day conference day — set alarm."
+      ]
     },
     {
-      "day": "Saturday, June 20",
-      "name": "Circuit — Milo and the Bull",
-      "time": "10:30 AM",
-      "location": "Milo and the Bull Peckham",
-      "prep_notes": ["Booked and confirmed."]
+      "day": "Thursday, June 25",
+      "name": "UK Finance Event — Digital Innovation Summit",
+      "time": "All day",
+      "location": null,
+      "prep_notes": [
+        "Full-day work event organised via Worldpay email.",
+        "Check if registration, badge collection, or travel arrangements are needed."
+      ]
     },
     {
-      "day": "Saturday, June 20",
+      "day": "Friday, June 26",
+      "name": "Potential NYC",
+      "time": "All day",
+      "location": "New York City",
+      "prep_notes": [
+        "Marked as 'Potential' — confirm whether this trip is happening.",
+        "If going, book flights and accommodation; block runs through 4 July."
+      ]
+    },
+    {
+      "day": "Friday, June 26",
+      "name": "Caroline's birthday",
+      "time": "All day",
+      "location": null,
+      "prep_notes": [
+        "Send Caroline a birthday message."
+      ]
+    },
+    {
+      "day": "Saturday, June 27",
+      "name": "Chechi's birthday",
+      "time": "All day",
+      "location": null,
+      "prep_notes": [
+        "Send Chechi a birthday message."
+      ]
+    },
+    {
+      "day": "Saturday, June 27",
+      "name": "Roger's birthday",
+      "time": "All day",
+      "location": null,
+      "prep_notes": [
+        "Send Roger a birthday message."
+      ]
+    },
+    {
+      "day": "Saturday, June 27",
+      "name": "Plein Air (outdoor) Painting — Big Ben",
+      "time": "10:00 AM",
+      "location": "Victoria Tower Gardens South, Abingdon Street, London SW1P 3JA",
+      "prep_notes": [
+        "Meet at the Rodin Sculpture; call organiser on 07977854478 on arrival.",
+        "Runs until 2:30 PM — leaves time before Shabbat at 7:00 PM."
+      ]
+    },
+    {
+      "day": "Saturday, June 27",
       "name": "Saturday Shabbat",
       "time": "7:00 PM",
       "location": null,
-      "prep_notes": ["No location in calendar — confirm where this is and whether a reservation is needed."]
+      "prep_notes": [
+        "No location confirmed — check where Shabbat is being held and whether a reservation is needed."
+      ]
     }
   ],
   "emails": [
     {
-      "sender": "reshmis93@gmail.com",
-      "subject": "Agentic Commerce Daily — Sun 14 Jun 2026",
-      "preview": "What's moving: Visa has launched an AI commerce platform integrating directly with OpenAI, enabling ChatGPT to browse, select, and pay autonomously on users' behalf.",
-      "timestamp": "Sun, Jun 14, 10:46 AM",
-      "urgent": false
+      "sender": "Jamie Tym <jamieatym@gmail.com>",
+      "subject": "Re: Fwd: ElevenLabs | Process Update",
+      "preview": "Jamie looped you in with Lauren Rothwell at ElevenLabs: 'R, note Lauren's request for some projects you've worked on. Hope it leads to some good conversations!'",
+      "timestamp": "Thu, Jun 19, 3:27 PM",
+      "urgent": true
     }
   ],
   "errors": []

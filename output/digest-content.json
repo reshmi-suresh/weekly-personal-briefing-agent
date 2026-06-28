@@ -1,21 +1,21 @@
 {
-  "date": "Sunday, June 21, 2026",
-  "headline": "Good morning — here's your week ahead.",
+  "date": "Sunday, June 28, 2026",
+  "headline": "Good morning from NYC — your week ahead.",
   "tldr": [
-    "ElevenLabs via Jamie: Lauren needs your project samples — reply this week (Emails #1)",
-    "Review EasyJet overdue since yesterday — clear it today (To-dos #1)",
-    "Dinner with Don + Visa Tuesday has no location confirmed (Calendar #5)",
-    "Potential NYC starts Friday — confirm it's happening and book travel if so (Calendar #8)",
-    "Three birthdays: Marc vM Tue, Caroline Fri, Roger and Chechi Sat (Calendar #3, #9, #10, #11)",
-    "Saturday Shabbat has no location confirmed (Calendar #13)",
-    "Wednesday entirely clear — no plans at all (Calendar)"
+    "ElevenLabs recruiter pre-screen Monday 9:15 AM ET — prepare tonight (Calendar #3)",
+    "Claude API access is suspended — add billing credits today (Emails #1)",
+    "Donmar Theatre Friday conflicts with your JFK flight — resolve the ticket (Calendar #8)",
+    "Review EasyJet is 8 days overdue — clear it Thursday when the week is free (To-dos #1)",
+    "Fun Excursion tonight has no location — check where before heading out (Calendar #2)",
+    "Harriett's birthday Friday — send a message (Calendar #7)",
+    "No gym booked all week; Thursday July 2 is completely clear"
   ],
-  "intro": "<strong>ElevenLabs has asked for your project portfolio via Jamie</strong> — Lauren Rothwell is waiting on samples of your work and Jamie has explicitly looped you in (Emails #1, urgent). Review EasyJet is one day overdue, and <strong>Dinner with Don + Visa on Tuesday evening has no location confirmed</strong>. Wednesday is completely clear; Potential NYC starts Friday — confirm whether it's going ahead and book if so.",
-  "stats": "2 open to-dos · 13 events this week · 1 unread email (1 urgent)",
+  "intro": "You're in NYC through Friday with <strong>the ElevenLabs recruiter pre-screen first thing Monday (9:15 AM ET)</strong> as the top priority — review the role tonight and find a quiet spot with good Wi-Fi. <strong>Claude API access is suspended</strong> and needs a billing top-up today (Emails #1, urgent). The Donmar Theatre booking on Friday 6 PM BST conflicts directly with your JFK departure at 7 PM ET — the ticket needs resolving. No fitness classes are booked for the week, and Thursday July 2 is completely clear.",
+  "stats": "2 open to-dos · 11 events this week · 5 unread emails (1 urgent)",
   "todos": [
     {
       "text": "Review EasyJet",
-      "suggested_date": "2026-06-21"
+      "suggested_date": "2026-07-02"
     },
     {
       "text": "Housekeeper",
@@ -24,122 +24,104 @@
   ],
   "events": [
     {
-      "day": "Sunday, June 21",
-      "name": "Circuit — Milo and the Bull",
-      "time": "10:00 AM",
-      "location": "Milo and the Bull Peckham",
+      "day": "Sunday, June 28",
+      "name": "Seeing Em",
+      "time": "11:00 AM – 1:00 PM ET",
+      "location": "Central Park, New York, NY",
       "prep_notes": [
-        "Booked and confirmed."
+        "Confirm a specific entrance or meeting point at Central Park before heading over."
       ]
     },
     {
-      "day": "Monday, June 22",
-      "name": "Yoga",
-      "time": "7:30 AM",
+      "day": "Sunday, June 28",
+      "name": "Fun Excursion to Who Knows What",
+      "time": "1:00 PM – 4:00 PM ET",
       "location": null,
       "prep_notes": [
-        "No location in the calendar — check where this class is before Monday morning."
+        "No location in the calendar — check where this is before heading out."
       ]
     },
     {
-      "day": "Tuesday, June 23",
-      "name": "Marc vM's birthday",
+      "day": "Monday, June 29",
+      "name": "ElevenLabs | Product Marketing – Agents — Recruiter Pre-Screen",
+      "time": "9:15 AM – 9:30 AM ET",
+      "location": "Google Meet",
+      "prep_notes": [
+        "Interview with Oscar Gibbon (Technical Recruiter). Review the Product Marketing – Agents role and ElevenLabs website tonight.",
+        "Find a quiet, well-lit spot in NYC and test your camera and mic before 9:15 AM."
+      ]
+    },
+    {
+      "day": "Tuesday, June 30",
+      "name": "Chris DaCosta call (exact time TBC)",
+      "time": "1:00 PM – 3:00 PM ET (window, exact time TBC)",
+      "location": null,
+      "prep_notes": [
+        "Exact start time is marked TBC — confirm with Chris before Tuesday."
+      ]
+    },
+    {
+      "day": "Tuesday, June 30",
+      "name": "Comedy Cellar with Doug/Meg/Megha",
+      "time": "7:00 PM ET onwards",
+      "location": "Comedy Cellar, NYC",
+      "prep_notes": [
+        "Confirm reservation or tickets with the group in advance.",
+        "Late night — runs until around midnight ET."
+      ]
+    },
+    {
+      "day": "Wednesday, July 1",
+      "name": "Dimi <> Reshmi",
+      "time": "12:00 PM – 12:30 PM ET",
+      "location": "Google Meet",
+      "prep_notes": [
+        "30-minute call with Dimi (paid.ai) — prep any agenda points beforehand."
+      ]
+    },
+    {
+      "day": "Friday, July 3",
+      "name": "Harriett's birthday",
       "time": "All day",
       "location": null,
       "prep_notes": [
-        "Send Marc a birthday message."
+        "Send Harriett a birthday message — a busy travel day, so do it early."
       ]
     },
     {
-      "day": "Tuesday, June 23",
-      "name": "Reshmi Suresh <> LangChain",
-      "time": "11:30 AM",
-      "location": "Zoom",
+      "day": "Friday, July 3",
+      "name": "The Guilty — Donmar Theatre",
+      "time": "6:00 PM – 10:00 PM BST (1:00 PM – 5:00 PM ET)",
+      "location": "Donmar Warehouse, London",
       "prep_notes": [
-        "Organised by Thomas Coventry-Brooker at LangChain (thomas.coventry-brooker@langchain.dev).",
-        "Zoom link is in the invite; password: 730523. Runs until 12:30 PM."
+        "CONFLICT: you are in NYC and your JFK flight departs at 7:00 PM ET — you cannot attend this London show.",
+        "Contact the Donmar box office to transfer or return the ticket."
       ]
     },
     {
-      "day": "Tuesday, June 23",
-      "name": "Dinner with Don + Visa",
-      "time": "6:30 PM",
-      "location": null,
+      "day": "Friday, July 3",
+      "name": "Virgin Atlantic flight 46 to London (D7F45Q)",
+      "time": "Departs 7:00 PM ET from JFK — arrives 7:15 AM BST Saturday",
+      "location": "John F. Kennedy International Airport, New York",
       "prep_notes": [
-        "No restaurant or location in the calendar — confirm before Tuesday.",
-        "Runs until 10:30 PM."
+        "Confirmation code D7F45Q. Check in online before departure day.",
+        "Leave NYC no later than 4:30 PM ET to allow time for JFK security."
       ]
     },
     {
-      "day": "Thursday, June 25",
-      "name": "Strength — Milo and the Bull",
-      "time": "7:15 AM",
-      "location": "Milo and the Bull Peckham",
+      "day": "Saturday, July 4",
+      "name": "Moola & Friends: Bubbles & Brunch",
+      "time": "12:00 PM – 4:00 PM BST",
+      "location": "6b Hertford St, London W1J 7RQ — elevator to 6th floor, head left",
       "prep_notes": [
-        "Early gym on a full-day conference day — set alarm."
+        "You land at LHR at 7:15 AM BST — a few hours to get home before brunch.",
+        "Intimate vegan brunch, capped to 15 guests; hosted by Linda Du (app-moola.com)."
       ]
     },
     {
-      "day": "Thursday, June 25",
-      "name": "UK Finance Event — Digital Innovation Summit",
-      "time": "All day",
-      "location": null,
-      "prep_notes": [
-        "Full-day work event organised via Worldpay email.",
-        "Check if registration, badge collection, or travel arrangements are needed."
-      ]
-    },
-    {
-      "day": "Friday, June 26",
-      "name": "Potential NYC",
-      "time": "All day",
-      "location": "New York City",
-      "prep_notes": [
-        "Marked as 'Potential' — confirm whether this trip is happening.",
-        "If going, book flights and accommodation; block runs through 4 July."
-      ]
-    },
-    {
-      "day": "Friday, June 26",
-      "name": "Caroline's birthday",
-      "time": "All day",
-      "location": null,
-      "prep_notes": [
-        "Send Caroline a birthday message."
-      ]
-    },
-    {
-      "day": "Saturday, June 27",
-      "name": "Chechi's birthday",
-      "time": "All day",
-      "location": null,
-      "prep_notes": [
-        "Send Chechi a birthday message."
-      ]
-    },
-    {
-      "day": "Saturday, June 27",
-      "name": "Roger's birthday",
-      "time": "All day",
-      "location": null,
-      "prep_notes": [
-        "Send Roger a birthday message."
-      ]
-    },
-    {
-      "day": "Saturday, June 27",
-      "name": "Plein Air (outdoor) Painting — Big Ben",
-      "time": "10:00 AM",
-      "location": "Victoria Tower Gardens South, Abingdon Street, London SW1P 3JA",
-      "prep_notes": [
-        "Meet at the Rodin Sculpture; call organiser on 07977854478 on arrival.",
-        "Runs until 2:30 PM — leaves time before Shabbat at 7:00 PM."
-      ]
-    },
-    {
-      "day": "Saturday, June 27",
+      "day": "Saturday, July 4",
       "name": "Saturday Shabbat",
-      "time": "7:00 PM",
+      "time": "7:00 PM BST",
       "location": null,
       "prep_notes": [
         "No location confirmed — check where Shabbat is being held and whether a reservation is needed."
@@ -148,11 +130,39 @@
   ],
   "emails": [
     {
-      "sender": "Jamie Tym <jamieatym@gmail.com>",
-      "subject": "Re: Fwd: ElevenLabs | Process Update",
-      "preview": "Jamie looped you in with Lauren Rothwell at ElevenLabs: 'R, note Lauren's request for some projects you've worked on. Hope it leads to some good conversations!'",
-      "timestamp": "Thu, Jun 19, 3:27 PM",
+      "sender": "Anthropic <no-reply@mail.anthropic.com>",
+      "subject": "[Action needed] Your Claude API access is turned off",
+      "preview": "Your access is disabled because 'Reshmi's Individual Org' is out of usage credits. Go to the Billing page to add credits and manage your plan.",
+      "timestamp": "Fri, Jun 26, 11:47 AM",
       "urgent": true
+    },
+    {
+      "sender": "Eventbrite <noreply@order.eventbrite.com>",
+      "subject": "[Eventbrite] Your Refund Request",
+      "preview": "Your refund request has been submitted. Eventbrite requires organizers to manage refunds — follow up directly with the event organizer if not resolved.",
+      "timestamp": "Thu, Jun 25, 12:55 PM",
+      "urgent": false
+    },
+    {
+      "sender": "Uber <noreply@uber.com>",
+      "subject": "Your Saturday evening trip with Uber",
+      "preview": "Trip on Jun 27 at 10:19 PM ET. Total: US$22.96. Charge summary for completed trip.",
+      "timestamp": "Sun, Jun 28, 3:37 AM",
+      "urgent": false
+    },
+    {
+      "sender": "Reshmi Suresh <reshmis93@gmail.com>",
+      "subject": "Agentic Commerce Daily — Fri 26 Jun 2026",
+      "preview": "Your Friday newsletter forwarded to your work inbox: agentic commerce infrastructure crystallising fast — Orthogonal ($4.3M seed), legal frameworks for agent transactions.",
+      "timestamp": "Fri, Jun 26, 11:46 AM",
+      "urgent": false
+    },
+    {
+      "sender": "Equifax <noreply@equifax.com>",
+      "subject": "Reshmi, your latest Equifax Credit Score is now available",
+      "preview": "Your monthly Equifax Credit Score has updated as part of your Basic service. Log in to see your latest score.",
+      "timestamp": "Sun, Jun 28, 3:52 AM",
+      "urgent": false
     }
   ],
   "errors": []
